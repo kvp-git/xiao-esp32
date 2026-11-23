@@ -1,0 +1,4 @@
+dependencies:
+  idf: ">=5.1.0"
+  joltwallet/littlefs: "^1.14.8"
+  espressif/lz4: "1.10.0"

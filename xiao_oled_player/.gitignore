@@ -1,0 +1,32 @@
+# ESP-IDF build output and downloaded managed components
+/build/
+/build-*/
+/managed_components/
+
+# Generated local configuration; keep sdkconfig.defaults and dependencies.lock
+/sdkconfig
+/sdkconfig.old
+
+# Machine-specific editor settings
+/.vscode/
+/.idea/
+/.cache/
+/compile_commands.json
+
+# Python host-tool caches and virtual environments
+__pycache__/
+*.py[cod]
+/.venv/
+/venv/
+/.pytest_cache/
+
+# OS and temporary editor files
+.DS_Store
+Thumbs.db
+Desktop.ini
+*~
+*.swp
+*.swo
+
+# custom
+/resource/test*.*
